@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Exec017 {
+
+	public static void main(String[] args) {
+		
+		Scanner in = new Scanner(System.in);
+		final double Gasto = 12.0;
+		double qantLitros;
+		int tempoDeViagem = 0, velocidadeMedia = 0;
+		
+		tempoDeViagem = in.nextInt();
+		in.nextLine();
+		
+		velocidadeMedia = in.nextInt();
+		in.nextLine();
+		
+		qantLitros = (tempoDeViagem*velocidadeMedia)/Gasto;
+		System.out.printf("%.3f\n", qantLitros);
+	}
+}
