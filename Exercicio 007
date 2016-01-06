@@ -21,6 +21,6 @@ public class Exericio007{
         d = in.nextInt();
         in.nextLine();
         
-        int dif = (a * b) - (c * d);
+        int dif = (a*b) - (c*d);
         System.out.printf("DIFERENCA = %d\n", dif);
     }
