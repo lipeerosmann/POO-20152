@@ -1,8 +1,11 @@
+package exercicio1;
+
 import java.util.Scanner;
 
-public class Exec014{
 
-	public static void main(String[] args) {
+
+public class Exercicio1 {
+    public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int distanciaTotal = 0;
 		double combustivelGasto = 0;
