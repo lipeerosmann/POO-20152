@@ -6,14 +6,14 @@ public class Exerc003 {
 		Scanner in = new Scanner(System.in);
 		int a = 0
 		int b = 0;
-		
+		int soma;
 		a = in.nextInt();
 		in.nextLine();
 		
 		b = in.nextInt();
 		in.nextLine();
 		
-		int soma = a + b;
+		 soma = a + b;
 				
 		System.out.println("SOMA = " + soma);
 		
